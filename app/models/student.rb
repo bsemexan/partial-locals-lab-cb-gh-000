@@ -17,7 +17,7 @@ class Student < ActiveRecord::Base
   def self.search(q)
     if q.present?
     else
-    self.all
-  end
+      self.all
+    end
   end
 end
